@@ -2,6 +2,22 @@
 
 
 
+# Table of Contents
+
+
+
+
+
+----
+
+
+
+| Parameter        | Value                                    | Note |
+| ---------------- | ---------------------------------------- | ---- |
+| Official Website | [Click Here](https://www.rust-lang.org/) |      |
+|                  |                                          |      |
+|                  |                                          |      |
+
 
 
 # Rust Binaries
