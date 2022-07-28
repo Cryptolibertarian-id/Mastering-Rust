@@ -62,6 +62,10 @@ $ cargo new hello
 
 
 
+---
+
+
+
 ## Execute Project
 
 Go to hello package and then execute entry point in the project :
@@ -89,5 +93,39 @@ Output :
 
 ```
 Hello, world!
+```
+
+
+
+---
+
+
+
+## Test Project
+
+To test the project create **tests** directory and create file test.rs :
+
+```rust
+#[test]
+fn works() {
+    assert!(true);
+}
+```
+
+Start testing by execute this command :
+
+```bash
+$ cargo test
+```
+
+Output :
+
+```
+     Running tests\test.rs (target\debug\deps\test-baf0d4e290429966.exe)
+
+running 1 test
+test works ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
 ```
 
